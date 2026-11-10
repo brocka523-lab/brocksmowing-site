@@ -419,3 +419,7 @@ html, body { margin: 0 !important; padding-left: 0 !important; padding-right: 0 
 .svc-group:first-of-type { margin-top: 8px; }
 .svc-group-h { display: flex; align-items: center; gap: 14px; font-size: 28px; margin-bottom: 16px; }
 .svc-group-h::after { content: ""; flex: 1; height: 2px; background: var(--line); }
+
+/* scroll animations (js/animate.js) */
+.anim-pre{opacity:0}
+.btn{will-change:auto}
